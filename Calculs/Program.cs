@@ -94,6 +94,7 @@ namespace Calculs
                     default: // autre valeur donc erreur de saisie
                         Console.WriteLine("Erreur de saisie");
                         break;
+                        Console.ReadLine();
                 }
             }
         }
